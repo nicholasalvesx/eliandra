@@ -101,14 +101,6 @@
       </div>
     </div>
 
-    <!-- Scroll indicator -->
-    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
-      <span class="text-white/30 text-xs tracking-widest uppercase">Rolar</span>
-      <svg class="w-4 h-4 text-[#C4933F]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-      </svg>
-    </div>
-
     <!-- Bottom golden line -->
     <div class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C4933F] to-transparent opacity-40" />
   </section>
