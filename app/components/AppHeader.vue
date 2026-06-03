@@ -5,7 +5,7 @@
       scrolled ? 'bg-[#0F0F0F]/95 backdrop-blur-md shadow-lg shadow-black/20' : 'bg-transparent',
     ]"
   >
-    <div class="max-w-7xl mx-auto px-5 sm:px-8 h-18 flex items-center justify-between py-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 flex items-center justify-between py-3 sm:py-4">
       <!-- Logo -->
       <a href="#hero" class="flex items-center gap-3 group" @click.prevent="scrollTo('#hero')">
         <img
@@ -103,7 +103,6 @@ const menuOpen = ref(false)
 const navLinks = [
   { label: 'Marcas', href: '#brands' },
   { label: 'Por que nós', href: '#why-us' },
-  { label: 'Produtos', href: '#categories' },
   { label: 'Contato', href: '#contact' },
 ]
 

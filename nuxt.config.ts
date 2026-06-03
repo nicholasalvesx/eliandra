@@ -1,5 +1,5 @@
-import Aura from '@primevue/themes/aura'
-import { definePreset } from '@primevue/themes'
+import Aura from '@primeuix/themes/aura'
+import { definePreset } from '@primeuix/themes'
 
 const AnaPreset = definePreset(Aura, {
   semantic: {
@@ -21,6 +21,7 @@ const AnaPreset = definePreset(Aura, {
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-01',
+  future: { compatibilityVersion: 4 },
   devtools: { enabled: true },
 
   modules: [

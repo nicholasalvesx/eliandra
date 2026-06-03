@@ -101,7 +101,6 @@
 const navLinks = [
   { label: 'Marcas', href: '#brands' },
   { label: 'Por que nós', href: '#why-us' },
-  { label: 'Produtos', href: '#categories' },
   { label: 'Contato', href: '#contact' },
 ]
 

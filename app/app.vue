@@ -5,8 +5,7 @@
       <HeroSection />
       <BrandsSection />
       <WhyUsSection />
-      <CategoriesSection />
-      <CTASection />
+<CTASection />
     </main>
     <AppFooter />
   </div>
