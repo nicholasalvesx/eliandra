@@ -24,8 +24,8 @@
           <!-- Icon circle -->
           <div
             class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl mx-auto mb-4 sm:mb-6 flex items-center justify-center
-                   bg-[#FEFBF0] border border-[#C4933F]/20 transition-all duration-300
-                   group-hover:bg-[#C4933F] group-hover:shadow-lg group-hover:shadow-[#C4933F]/30 group-hover:scale-110"
+                   bg-white border border-[#C4933F]/15 transition-all duration-300
+                   group-hover:bg-[#C4933F] group-hover:shadow-md group-hover:shadow-[#C4933F]/20 group-hover:scale-105"
           >
             <svg
               class="w-7 h-7 sm:w-8 sm:h-8 text-[#C4933F] group-hover:text-white transition-colors duration-300"
@@ -51,14 +51,14 @@
       <div
         ref="quoteRef"
         :class="[
-          'mt-16 sm:mt-20 relative bg-[#0F0F0F] rounded-2xl sm:rounded-3xl px-6 py-10 sm:p-14 text-center overflow-hidden reveal',
+          'mt-16 sm:mt-20 relative bg-[#111009] rounded-2xl sm:rounded-3xl px-6 py-10 sm:p-14 text-center overflow-hidden reveal',
           quoteVisible && 'visible',
         ]"
       >
-        <div class="absolute top-0 right-0 w-48 sm:w-64 h-48 sm:h-64 rounded-full opacity-10 pointer-events-none"
-          style="background: radial-gradient(circle, #C4933F, transparent 70%); transform: translate(30%, -30%)" />
-        <div class="absolute bottom-0 left-0 w-48 sm:w-64 h-48 sm:h-64 rounded-full opacity-10 pointer-events-none"
-          style="background: radial-gradient(circle, #C4933F, transparent 70%); transform: translate(-30%, 30%)" />
+        <div class="absolute top-0 right-0 w-48 sm:w-64 h-48 sm:h-64 rounded-full opacity-[0.07] pointer-events-none"
+          style="background: radial-gradient(circle, #D4A855, transparent 70%); transform: translate(30%, -30%)" />
+        <div class="absolute bottom-0 left-0 w-48 sm:w-64 h-48 sm:h-64 rounded-full opacity-[0.07] pointer-events-none"
+          style="background: radial-gradient(circle, #D4A855, transparent 70%); transform: translate(-30%, 30%)" />
 
         <div class="relative z-10">
           <div class="text-[#C4933F] text-5xl sm:text-6xl font-serif leading-none mb-3 sm:mb-4">"</div>
@@ -67,9 +67,9 @@
             Ficou interessado? Entre em contato.
           </p>
           <div class="mt-5 sm:mt-6 flex items-center justify-center gap-3">
-            <div class="w-6 sm:w-8 h-px bg-[#C4933F]/60" />
-            <span class="text-[#C4933F] text-xs font-semibold tracking-widest uppercase">Ana Cosméticos</span>
-            <div class="w-6 sm:w-8 h-px bg-[#C4933F]/60" />
+            <div class="w-6 sm:w-8 h-px bg-[#C4933F]/40" />
+            <span class="text-[#C4933F]/80 text-xs font-semibold tracking-widest uppercase">Ana Cosméticos</span>
+            <div class="w-6 sm:w-8 h-px bg-[#C4933F]/40" />
           </div>
         </div>
       </div>

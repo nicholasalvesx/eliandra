@@ -1,20 +1,20 @@
 <template>
   <section
     id="hero"
-    class="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0A0A0A]"
+    class="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0C0B09]"
   >
     <!-- Background radial glow -->
     <div class="absolute inset-0 pointer-events-none">
       <div
-        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full opacity-20"
-        style="background: radial-gradient(circle, #C4933F 0%, #7A5520 40%, transparent 70%)"
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full opacity-[0.13]"
+        style="background: radial-gradient(circle, #D4A855 0%, #7A5520 50%, transparent 75%)"
       />
       <!-- Decorative dots pattern -->
-      <div class="absolute inset-0 opacity-5" style="background-image: radial-gradient(#C4933F 1px, transparent 1px); background-size: 32px 32px;" />
+      <div class="absolute inset-0 opacity-[0.03]" style="background-image: radial-gradient(rgba(196,147,63,0.8) 1px, transparent 1px); background-size: 36px 36px;" />
     </div>
 
     <!-- Top golden line -->
-    <div class="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C4933F] to-transparent opacity-60" />
+    <div class="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C4933F] to-transparent opacity-40" />
 
     <!-- Content -->
     <div class="relative z-10 text-center px-5 sm:px-8 max-w-4xl mx-auto pt-24 pb-16">
@@ -23,7 +23,7 @@
         <img
           src="/logo.png"
           alt="Ana Cosméticos"
-          class="h-28 sm:h-36 w-auto drop-shadow-[0_0_40px_rgba(196,147,63,0.5)]"
+          class="h-28 sm:h-36 w-auto drop-shadow-[0_0_32px_rgba(196,147,63,0.3)]"
         />
       </div>
 
@@ -37,7 +37,7 @@
 
       <!-- Tagline -->
       <p
-        class="text-white/70 text-lg sm:text-xl md:text-2xl font-light tracking-wide mb-6 animate-fade-up"
+        class="text-white/60 text-lg sm:text-xl md:text-2xl font-light tracking-wide mb-6 animate-fade-up"
         style="animation-delay: 0.2s"
       >
         Beleza, qualidade e preço justo em Itapipoca
@@ -51,7 +51,7 @@
         <span
           v-for="brand in brands"
           :key="brand"
-          class="px-3 py-1 rounded-full border border-[#C4933F]/40 text-[#C4933F] text-xs sm:text-sm font-medium tracking-wider"
+          class="px-3 py-1 rounded-full border border-[#C4933F]/25 text-[#C4933F]/80 text-xs sm:text-sm font-medium tracking-wider"
         >
           {{ brand }}
         </span>
@@ -89,20 +89,20 @@
 
       <!-- Stats -->
       <div
-        class="mt-16 pt-10 border-t border-white/10 grid grid-cols-3 gap-6 animate-fade-up"
+        class="mt-16 pt-10 border-t border-white/[0.07] grid grid-cols-3 gap-6 animate-fade-up"
         style="animation-delay: 0.5s"
       >
         <div v-for="stat in stats" :key="stat.label" class="text-center">
           <div class="section-title text-2xl sm:text-3xl text-gold-gradient font-semibold">
             {{ stat.value }}
           </div>
-          <div class="text-white/50 text-xs sm:text-sm mt-1 tracking-wide">{{ stat.label }}</div>
+          <div class="text-white/40 text-xs sm:text-sm mt-1 tracking-wide">{{ stat.label }}</div>
         </div>
       </div>
     </div>
 
     <!-- Bottom golden line -->
-    <div class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C4933F] to-transparent opacity-40" />
+    <div class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C4933F] to-transparent opacity-25" />
   </section>
 </template>
 

@@ -2,12 +2,12 @@
   <section id="contact" class="py-24 bg-[#FAFAFA] relative overflow-hidden">
     <!-- Decorative corner elements -->
     <div
-      class="absolute top-10 left-10 w-32 h-32 rounded-full opacity-10"
-      style="background: radial-gradient(circle, #C4933F, transparent)"
+      class="absolute top-10 left-10 w-32 h-32 rounded-full opacity-[0.06]"
+      style="background: radial-gradient(circle, #D4A855, transparent)"
     />
     <div
-      class="absolute bottom-10 right-10 w-48 h-48 rounded-full opacity-10"
-      style="background: radial-gradient(circle, #C4933F, transparent)"
+      class="absolute bottom-10 right-10 w-48 h-48 rounded-full opacity-[0.06]"
+      style="background: radial-gradient(circle, #D4A855, transparent)"
     />
 
     <div class="relative z-10 max-w-4xl mx-auto px-5 sm:px-8 text-center">
@@ -74,7 +74,7 @@
         </div>
 
         <!-- Location tag -->
-        <div class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white border border-[#C4933F]/30 text-[#6B6B6B] text-sm">
+        <div class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white border border-[#C4933F]/20 text-[#8A8A8A] text-sm">
           <svg class="w-4 h-4 text-[#C4933F]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
